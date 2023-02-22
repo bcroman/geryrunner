@@ -1,0 +1,103 @@
+/*overall page design*/
+h1{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+}
+
+body{
+	background-color: #white;
+	color: black;
+}
+
+/*dark mode settings*/
+.dark-mode{
+	background-color: #737373;
+	color: white;
+}
+
+/* nav bar */
+nav{
+	background-color: black;
+	text-align:center;
+}
+
+ul{
+	list-style-type: none;
+	padding: 10px;
+}
+
+li {
+  display: inline;
+}
+
+li a{
+	color: white;
+	padding: 5px;
+}
+
+li a:hover{
+	background-color: grey;
+	color: white;
+	padding: 5px;
+}
+
+.active{
+	border-style: solid;
+}
+
+.cb{
+	color:white;
+}
+
+.cb1:checked ~.checked{
+	background-color: #black;
+	color: white;
+}
+
+/*leader board table*/
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td{
+	border-style: solid;
+	text-align: center;
+}
+
+th, td{
+	padding: 10px;
+}
+
+/*image settings*/
+.gerylogo{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/*button design*/
+.scorebutton{
+	background-color: black;
+	color: white;
+	margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	justify-content: center;
+}
+
+/*form image*/
+input[type=submit]{
+	background-color: #737373;
+    border-style: solid;
+    color: white;
+	padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	justify-content: center;
+}
